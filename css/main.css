@@ -46,3 +46,46 @@ header .header-icons-container .icons{
 header .icons span{
     color: white;
 }
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    align-items: center;
+}
+nav .nav-logo-container{
+    margin-left: 50px;
+    justify-self: flex-start;
+}
+nav .nav-logo-container img{
+    width:220px;
+}
+nav .profile-link{
+    margin-right: 50px;
+    justify-self: flex-end;
+}
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+/* Otra seccion */
+.home{
+    background-image: url("../assets/img/fondofinal.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+    color: white;
+    margin-top: 174px;
+    font-size: 3.5rem;
+}
+.home-button{
+    padding: 11px;
+    border-radius: 16px;
+    border: none;
+    font-size: 1rem;
+}
