@@ -68,6 +68,9 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 /* Otra seccion */
+.home-main{
+    height: 100%;
+}
 .home{
     /* min-height: 100vh; */
     height: calc(100% - 140px);
@@ -78,7 +81,7 @@ nav .profile-link a {
     justify-content: center;
     position: relative;
 }
-.home-image {
+.home-main-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -87,15 +90,16 @@ nav .profile-link a {
     object-fit: cover; /* Escala la imagen sin recortarla */
     z-index: -1;
 }
-.home-title{
+.home-main-title{
     color: white;
-    /* margin-top: 174px; */
+    font-family: 'Roboto Mono', monospace;
     font-size: 3rem;
+    font-weight: 700;
     letter-spacing: 10px;
     background-color: #0000003b;
     letter-spacing: 10px;
 }
-.home-button{
+.home-main-button{
     padding: 11px 25px;
     border-radius: 12px;
     border: none;
