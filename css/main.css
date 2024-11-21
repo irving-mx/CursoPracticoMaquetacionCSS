@@ -141,6 +141,11 @@ nav .profile-link a {
 .blogs-news-info-container p{
     margin-bottom: 35px;
 }
+.blogs-button{
+    border:1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
 .blogs-post-container{
     padding: 0 50px 40px;
 }
