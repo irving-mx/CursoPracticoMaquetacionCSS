@@ -200,7 +200,7 @@ footer p{
 }
 .contact-main-container{
     background-color: #e6e9ed;
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     text-align: center;
     padding-bottom: 50px;
