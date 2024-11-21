@@ -8,6 +8,7 @@ html{
 } */
 
 body{
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -66,6 +67,7 @@ nav .profile-link{
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+
 }
 /* Otra seccion */
 .home-main{
@@ -103,5 +105,10 @@ nav .profile-link a {
     padding: 11px 25px;
     border-radius: 12px;
     border: none;
+    font-size: 1rem;
+    background-color:#47cfac;
+}
+.home-main-button a{
+    font-weight: 700;
     font-size: 1rem;
 }
